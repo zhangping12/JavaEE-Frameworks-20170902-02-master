@@ -1,0 +1,19 @@
+group 'JavaEE-Frameworks-20170902'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'javax:javaee-api:7.0'
+    compile 'jstl:jstl:1.2'
+    compile 'mysql:mysql-connector-java:5.1.46'
+    compile 'org.mybatis:mybatis:3.4.6'
+    compile 'org.springframework:spring-webmvc:5.0.5.RELEASE'
+}
